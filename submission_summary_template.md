@@ -4,9 +4,9 @@
 
 ## 1) 과제 개요
 
-- 과제명: [과제명 입력]
-- 저장소: [저장소 URL 입력]
-- 작업 브랜치: [브랜치명 입력]
+- 과제명: GitHub 활용 OSS 실습 - load_breast_cancer 분류 모델 구현
+- 저장소: https://github.com/hyunsuki5329/OSS_Assignment
+- 작업 브랜치: oss-assignment-mainline
 - 사용 언어/라이브러리: Python, scikit-learn, matplotlib
 
 ## 2) 구현 내용
@@ -25,12 +25,12 @@
 
 ## 3) 결과 요약
 
-- 최고 성능 모델: [모델명 입력]
-- Accuracy: [값 입력]
-- ROC-AUC: [값 입력]
+- 최고 성능 모델: Logistic Regression
+- Accuracy: 0.982456
+- ROC-AUC: 0.995370
 - 핵심 해석:
-  - [결과 해석 1]
-  - [결과 해석 2]
+  - load_breast_cancer 데이터셋에서는 Logistic Regression이 가장 높은 정확도와 안정적인 분류 성능을 보였습니다.
+  - Random Forest는 파라미터를 조정해도 본 실험 설정에서는 Logistic Regression보다 낮은 정확도를 보였습니다.
 
 ## 4) 첨부 산출물
 
@@ -54,9 +54,12 @@
 
 ## 6) 커밋 요약
 
-- [커밋 1 메시지] - [핵심 변경]
-- [커밋 2 메시지] - [핵심 변경]
-- [커밋 3 메시지] - [핵심 변경]
+- Initial upload: breast cancer classifier scaffold - 데이터 로드/분할/학습/평가 기본 코드 업로드
+- Train model: compare logistic regression and random forest - 모델 비교 구조 추가
+- Evaluation: print sample predictions alongside accuracy - 정확도와 샘플 예측 출력 보강
+- Parameter change experiment: tune random forest variants - Random Forest 파라미터 실험 추가
+- Report: add final project report with figures and metrics - 보고서 및 시각화 산출물 추가
+- Docs: add submission summary comment template - 제출 요약 템플릿 추가
 
 ## 7) 확인 요청
 
