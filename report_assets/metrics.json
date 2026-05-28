@@ -1,0 +1,56 @@
+{
+  "dataset": {
+    "name": "load_breast_cancer",
+    "samples": 569,
+    "features": 30,
+    "class_names": [
+      "malignant",
+      "benign"
+    ],
+    "class_counts": {
+      "malignant": 212,
+      "benign": 357
+    },
+    "train_samples": 455,
+    "test_samples": 114
+  },
+  "model_results": {
+    "Logistic Regression": {
+      "accuracy": 0.982456,
+      "precision_macro": 0.981151,
+      "recall_macro": 0.981151,
+      "f1_macro": 0.981151
+    },
+    "Random Forest (100 trees)": {
+      "accuracy": 0.95614,
+      "precision_macro": 0.955062,
+      "recall_macro": 0.950397,
+      "f1_macro": 0.952638
+    },
+    "Random Forest (300 trees)": {
+      "accuracy": 0.947368,
+      "precision_macro": 0.943452,
+      "recall_macro": 0.943452,
+      "f1_macro": 0.943452
+    },
+    "Random Forest (depth=5)": {
+      "accuracy": 0.95614,
+      "precision_macro": 0.955062,
+      "recall_macro": 0.950397,
+      "f1_macro": 0.952638
+    }
+  },
+  "best_model": {
+    "name": "Logistic Regression",
+    "accuracy": 0.982456,
+    "roc_auc": 0.99537
+  },
+  "generated_images": [
+    "report_assets/dataset_image.png",
+    "report_assets/label_mask_image.png",
+    "report_assets/prediction_image.png",
+    "report_assets/accuracy_graph.png",
+    "report_assets/confusion_matrix.png",
+    "report_assets/roc_curve.png"
+  ]
+}
